@@ -2,7 +2,7 @@
 Simple macbook fan control tool for linux.
 
 
-#### TODOs:
+#### [X] TODOs:
 * add deamon mode with various profiles for automatic fans control.
 
 #### Quick Installation:
