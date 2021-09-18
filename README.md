@@ -1,5 +1,5 @@
 # macfanctl
-Simple macbook fan control tool for linux.
+Simple macbook's fan control tool for linux.
 
 
 #### [X] TODOs:
