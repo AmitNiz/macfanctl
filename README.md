@@ -2,8 +2,18 @@
 Simple macbook fan control tool for linux.
 
 
-### TODOs:
+#### TODOs:
 * add deamon mode with various profiles for automatic fans control.
+
+#### Quick Installation:
+| Method    | Command                                                                                           |
+|:----------|:--------------------------------------------------------------------------------------------------|
+| **wget**  | `sh -c "$(wget -O- https://raw.githubusercontent.com/AmitNiz/macfanctl/main/install.sh)"`   |
+| **curl**  | `sh -c "$(curl -fsSL https://raw.githubusercontent.com/AmitNiz/macfanctl/main/install.sh)"` |
+| **fetch** | `sh -c "$(fetch -o - https://raw.githubusercontent.com/AmitNiz/macfanctl/main/install.sh)"` |
+
+
+
 
 ## cli Mode:
 
