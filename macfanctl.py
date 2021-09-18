@@ -55,9 +55,6 @@ if __name__ == '__main__':
 	if args.get:
 		print(current_speed)
 		exit(0)
-<<<<<<< HEAD
-	
-=======
->>>>>>> 7cc92f9936f7be0bbb32c95bf33dc7d492ce9b5d
+
 	setVal(MIN_RPM_FILE,current_speed)
 
