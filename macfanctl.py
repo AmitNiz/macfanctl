@@ -13,7 +13,7 @@ CURRENT_RPM = 'fan1_output'
 #check if root
 def checkIfRoot():
 	if os.getuid():
-		sys.stderr.write("this option requires root privileges to run.. please run as root.\n")
+		sys.stderr.write("this option requires root privileges.. please run as root.\n")
 		exit(1)
 	
 
@@ -55,6 +55,9 @@ if __name__ == '__main__':
 	if args.get:
 		print(current_speed)
 		exit(0)
+<<<<<<< HEAD
 	
+=======
+>>>>>>> 7cc92f9936f7be0bbb32c95bf33dc7d492ce9b5d
 	setVal(MIN_RPM_FILE,current_speed)
 
