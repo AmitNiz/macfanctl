@@ -51,6 +51,6 @@ if __name__ == '__main__':
 	
 	if args.get:
 		print(current_speed)
-	
+		exit(0)
 	setVal(MIN_RPM_FILE,current_speed)
 
