@@ -21,6 +21,7 @@ def getVal(file):
 	return int(open(os.path.join(FAN_PATH,file),'r').read())
 
 def setVal(file,val):
+	checkIfRoot()
 	open(os.path.join(FAN_PATH,file),'w').write(str(val))
 
 
@@ -38,13 +39,11 @@ if __name__ == '__main__':
 	#load the current value
 	current_speed = getVal(CURRENT_RPM)
 	if args.inc:
-		checkIfRoot()
 		current_speed = max_speed if current_speed + abs(args.inc) > max_speed else current_speed + abs(args.inc)
 	if args.dec:
 		current_speed = 0 if current_speed + abs(args.dec) < 0 else current_speed - abs(args.dec)
 
 	if args.set:
-		checkIfRoot()
 		if 0 <= args.set <= max_speed:
 			current_speed = args.set
 		else:
