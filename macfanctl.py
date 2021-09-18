@@ -13,7 +13,7 @@ CURRENT_RPM = 'fan1_output'
 #check if root
 def checkIfRoot():
 	if os.getuid():
-		sys.stderr.write("this option requires root privileges to run.. please run as root.\n")
+		sys.stderr.write("this option requires root privileges.. please run as root.\n")
 		exit(1)
 	
 
