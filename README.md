@@ -22,11 +22,11 @@ Simple macbook fan control tool for linux.
       optional arguments:
         -h, --help            show this help message and exit
         -i {value}, --inc {value}
-                              increases the fan's speed by a given value in the range [0 - 6199].
+                              increases the fan's speed by a given value in the range [0 - {max_value}].
         -d {value}, --dec {value}
-                             decreases the fan's speed by a given value in the range [0 - 6199].
+                             decreases the fan's speed by a given value in the range [0 - {max_value}].
         -s {value}, --set {value}
-                             sets the fans speed to a given value in the range [0 - 6199].
+                             sets the fans speed to a given value in the range [0 - {max_value}].
         -g, --get             prints the fan's speed.
         
 
